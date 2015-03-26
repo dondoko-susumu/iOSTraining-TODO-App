@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153F80661AC425490070469B /* ToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 153F80641AC425490070469B /* ToDoTableViewCell.m */; };
+		153F80671AC425490070469B /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153F80651AC425490070469B /* ToDoTableViewCell.xib */; };
 		2D423DA51AB6E788008EF7E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D423DA41AB6E788008EF7E1 /* main.m */; };
 		2D423DA81AB6E788008EF7E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D423DA71AB6E788008EF7E1 /* AppDelegate.m */; };
 		2D423DAB1AB6E788008EF7E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D423DAA1AB6E788008EF7E1 /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153F80631AC425490070469B /* ToDoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewCell.h; sourceTree = "<group>"; };
+		153F80641AC425490070469B /* ToDoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewCell.m; sourceTree = "<group>"; };
+		153F80651AC425490070469B /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
 		2D423D9F1AB6E788008EF7E1 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D423DA31AB6E788008EF7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D423DA41AB6E788008EF7E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +94,9 @@
 				2D423DAF1AB6E788008EF7E1 /* Images.xcassets */,
 				2D423DB11AB6E788008EF7E1 /* LaunchScreen.xib */,
 				2D423DA21AB6E788008EF7E1 /* Supporting Files */,
+				153F80631AC425490070469B /* ToDoTableViewCell.h */,
+				153F80641AC425490070469B /* ToDoTableViewCell.m */,
+				153F80651AC425490070469B /* ToDoTableViewCell.xib */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 				2D423DAE1AB6E788008EF7E1 /* Main.storyboard in Resources */,
 				2D423DB31AB6E788008EF7E1 /* LaunchScreen.xib in Resources */,
 				2D423DB01AB6E788008EF7E1 /* Images.xcassets in Resources */,
+				153F80671AC425490070469B /* ToDoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				2D423DAB1AB6E788008EF7E1 /* ViewController.m in Sources */,
 				2D423DA81AB6E788008EF7E1 /* AppDelegate.m in Sources */,
 				2D423DA51AB6E788008EF7E1 /* main.m in Sources */,
+				153F80661AC425490070469B /* ToDoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
